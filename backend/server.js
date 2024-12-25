@@ -1,11 +1,11 @@
-// server.js
+
 const express = require('express');
 const cors = require('cors');
 
 const app = express();
 const port = 5000;
 
-// In-memory database for simplicity (you can start with some sample products)
+
 let products = [
     {
         id: 1,
